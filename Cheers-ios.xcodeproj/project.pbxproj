@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D182F9EDB64DD79A3B9FA0C /* Pods_Cheers_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27606A21D7A6B38D09AF3CFB /* Pods_Cheers_ios.framework */; };
+		4450D1FD1D16ECE50020BD2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450D1FC1D16ECE50020BD2E /* AppDelegate.swift */; };
+		4450D1FF1D16ECE50020BD2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450D1FE1D16ECE50020BD2E /* ViewController.swift */; };
+		4450D2041D16ECE50020BD2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4450D2031D16ECE50020BD2E /* Assets.xcassets */; };
+		4450D2121D16ECE50020BD2E /* Cheers_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450D2111D16ECE50020BD2E /* Cheers_iosUITests.swift */; };
+		FD580F224C2F3DCD67337258 /* Pods_Cheers_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7510949647789CE90E618EC /* Pods_Cheers_iosUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4450D20E1D16ECE50020BD2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4450D1F11D16ECE40020BD2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4450D1F81D16ECE50020BD2E;
+			remoteInfo = "Cheers-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27606A21D7A6B38D09AF3CFB /* Pods_Cheers_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cheers_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4450D1F91D16ECE50020BD2E /* Cheers-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cheers-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4450D1FC1D16ECE50020BD2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4450D1FE1D16ECE50020BD2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4450D2031D16ECE50020BD2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4450D2081D16ECE50020BD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4450D20D1D16ECE50020BD2E /* Cheers-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cheers-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4450D2111D16ECE50020BD2E /* Cheers_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheers_iosUITests.swift; sourceTree = "<group>"; };
+		4450D2131D16ECE50020BD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D599DFCB9837B003384F81E /* Pods-Cheers-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheers-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cheers-ios/Pods-Cheers-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		941E4269AF8AB2BB946C7B93 /* Pods-Cheers-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheers-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cheers-ios/Pods-Cheers-ios.release.xcconfig"; sourceTree = "<group>"; };
+		B7510949647789CE90E618EC /* Pods_Cheers_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cheers_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C901DB73E67EB64143A1E872 /* Pods-Cheers-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheers-iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cheers-iosUITests/Pods-Cheers-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD55AD5B28B0BE61BED9DE38 /* Pods-Cheers-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheers-iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cheers-iosUITests/Pods-Cheers-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4450D1F61D16ECE50020BD2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D182F9EDB64DD79A3B9FA0C /* Pods_Cheers_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4450D20A1D16ECE50020BD2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD580F224C2F3DCD67337258 /* Pods_Cheers_iosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		145C8D4701D9CBCDA72A0EFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D599DFCB9837B003384F81E /* Pods-Cheers-ios.debug.xcconfig */,
+				941E4269AF8AB2BB946C7B93 /* Pods-Cheers-ios.release.xcconfig */,
+				FD55AD5B28B0BE61BED9DE38 /* Pods-Cheers-iosUITests.debug.xcconfig */,
+				C901DB73E67EB64143A1E872 /* Pods-Cheers-iosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		444B0DC565CB3D27E4860B4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27606A21D7A6B38D09AF3CFB /* Pods_Cheers_ios.framework */,
+				B7510949647789CE90E618EC /* Pods_Cheers_iosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4450D1F01D16ECE40020BD2E = {
+			isa = PBXGroup;
+			children = (
+				4450D1FB1D16ECE50020BD2E /* Cheers-ios */,
+				4450D2101D16ECE50020BD2E /* Cheers-iosUITests */,
+				4450D1FA1D16ECE50020BD2E /* Products */,
+				145C8D4701D9CBCDA72A0EFB /* Pods */,
+				444B0DC565CB3D27E4860B4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4450D1FA1D16ECE50020BD2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4450D1F91D16ECE50020BD2E /* Cheers-ios.app */,
+				4450D20D1D16ECE50020BD2E /* Cheers-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4450D1FB1D16ECE50020BD2E /* Cheers-ios */ = {
+			isa = PBXGroup;
+			children = (
+				4450D1FC1D16ECE50020BD2E /* AppDelegate.swift */,
+				4450D1FE1D16ECE50020BD2E /* ViewController.swift */,
+				4450D2031D16ECE50020BD2E /* Assets.xcassets */,
+				4450D2081D16ECE50020BD2E /* Info.plist */,
+			);
+			path = "Cheers-ios";
+			sourceTree = "<group>";
+		};
+		4450D2101D16ECE50020BD2E /* Cheers-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4450D2111D16ECE50020BD2E /* Cheers_iosUITests.swift */,
+				4450D2131D16ECE50020BD2E /* Info.plist */,
+			);
+			path = "Cheers-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4450D1F81D16ECE50020BD2E /* Cheers-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4450D2161D16ECE50020BD2E /* Build configuration list for PBXNativeTarget "Cheers-ios" */;
+			buildPhases = (
+				234AFEFA877EA63800D477B1 /* [CP] Check Pods Manifest.lock */,
+				4450D1F51D16ECE50020BD2E /* Sources */,
+				4450D1F61D16ECE50020BD2E /* Frameworks */,
+				4450D1F71D16ECE50020BD2E /* Resources */,
+				8DFD42186508080C5402AD0E /* [CP] Embed Pods Frameworks */,
+				B4BF891A446F681F8D8FC36A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cheers-ios";
+			productName = "Cheers-ios";
+			productReference = 4450D1F91D16ECE50020BD2E /* Cheers-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4450D20C1D16ECE50020BD2E /* Cheers-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4450D2191D16ECE50020BD2E /* Build configuration list for PBXNativeTarget "Cheers-iosUITests" */;
+			buildPhases = (
+				1A830A079EC28F31F801F0A9 /* [CP] Check Pods Manifest.lock */,
+				4450D2091D16ECE50020BD2E /* Sources */,
+				4450D20A1D16ECE50020BD2E /* Frameworks */,
+				4450D20B1D16ECE50020BD2E /* Resources */,
+				058D0D41BF1FC2D6D6CD6C01 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4450D20F1D16ECE50020BD2E /* PBXTargetDependency */,
+			);
+			name = "Cheers-iosUITests";
+			productName = "Cheers-iosUITests";
+			productReference = 4450D20D1D16ECE50020BD2E /* Cheers-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4450D1F11D16ECE40020BD2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hy;
+				TargetAttributes = {
+					4450D1F81D16ECE50020BD2E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4BD2L3ULG3;
+					};
+					4450D20C1D16ECE50020BD2E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4BD2L3ULG3;
+						TestTargetID = 4450D1F81D16ECE50020BD2E;
+					};
+				};
+			};
+			buildConfigurationList = 4450D1F41D16ECE40020BD2E /* Build configuration list for PBXProject "Cheers-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4450D1F01D16ECE40020BD2E;
+			productRefGroup = 4450D1FA1D16ECE50020BD2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4450D1F81D16ECE50020BD2E /* Cheers-ios */,
+				4450D20C1D16ECE50020BD2E /* Cheers-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4450D1F71D16ECE50020BD2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4450D2041D16ECE50020BD2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4450D20B1D16ECE50020BD2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		058D0D41BF1FC2D6D6CD6C01 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cheers-iosUITests/Pods-Cheers-iosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A830A079EC28F31F801F0A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		234AFEFA877EA63800D477B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8DFD42186508080C5402AD0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cheers-ios/Pods-Cheers-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4BF891A446F681F8D8FC36A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cheers-ios/Pods-Cheers-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4450D1F51D16ECE50020BD2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4450D1FF1D16ECE50020BD2E /* ViewController.swift in Sources */,
+				4450D1FD1D16ECE50020BD2E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4450D2091D16ECE50020BD2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4450D2121D16ECE50020BD2E /* Cheers_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4450D20F1D16ECE50020BD2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4450D1F81D16ECE50020BD2E /* Cheers-ios */;
+			targetProxy = 4450D20E1D16ECE50020BD2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4450D2141D16ECE50020BD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4450D2151D16ECE50020BD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4450D2171D16ECE50020BD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D599DFCB9837B003384F81E /* Pods-Cheers-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cheers-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Cheers-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4450D2181D16ECE50020BD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 941E4269AF8AB2BB946C7B93 /* Pods-Cheers-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cheers-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Cheers-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4450D21A1D16ECE50020BD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD55AD5B28B0BE61BED9DE38 /* Pods-Cheers-iosUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Cheers-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Cheers-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cheers-ios";
+			};
+			name = Debug;
+		};
+		4450D21B1D16ECE50020BD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C901DB73E67EB64143A1E872 /* Pods-Cheers-iosUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Cheers-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Cheers-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cheers-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4450D1F41D16ECE40020BD2E /* Build configuration list for PBXProject "Cheers-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4450D2141D16ECE50020BD2E /* Debug */,
+				4450D2151D16ECE50020BD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4450D2161D16ECE50020BD2E /* Build configuration list for PBXNativeTarget "Cheers-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4450D2171D16ECE50020BD2E /* Debug */,
+				4450D2181D16ECE50020BD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4450D2191D16ECE50020BD2E /* Build configuration list for PBXNativeTarget "Cheers-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4450D21A1D16ECE50020BD2E /* Debug */,
+				4450D21B1D16ECE50020BD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4450D1F11D16ECE40020BD2E /* Project object */;
+}

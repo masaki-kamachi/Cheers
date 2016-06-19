@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (3.4.0)
+  - Bolts (1.7.0):
+    - Bolts/AppLinks (= 1.7.0)
+    - Bolts/Tasks (= 1.7.0)
+  - Bolts/AppLinks (1.7.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.7.0)
+  - FBSDKCoreKit (4.12.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.12.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.12.0):
+    - FBSDKCoreKit
+  - FlatUIKit (1.6.2)
+  - LTMorphingLabel (0.2.0)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - FlatUIKit
+  - LTMorphingLabel
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
+  FBSDKCoreKit: 6e56d5a2a64a755ad4efb5dbeee8f82fb1b99775
+  FBSDKLoginKit: 03f68a8d48c2c8bb81d7eb8097973d483543e1f6
+  FBSDKShareKit: df1491f064cffc8ebcc3fc8b71be94cc190c728e
+  FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
+  LTMorphingLabel: 490aa8e079f9247c7f3130f7d4b1be1d66677377
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 2d7221d7965c5412fe054c50dfae42bf5ad894ab
+
+COCOAPODS: 1.0.1
