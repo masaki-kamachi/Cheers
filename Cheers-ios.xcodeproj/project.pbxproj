@@ -12,6 +12,8 @@
 		4450D1FF1D16ECE50020BD2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450D1FE1D16ECE50020BD2E /* ViewController.swift */; };
 		4450D2041D16ECE50020BD2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4450D2031D16ECE50020BD2E /* Assets.xcassets */; };
 		4450D2121D16ECE50020BD2E /* Cheers_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450D2111D16ECE50020BD2E /* Cheers_iosUITests.swift */; };
+		F412A6341D1843D40062E4C1 /* ProfileRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F412A6331D1843D40062E4C1 /* ProfileRegisterViewController.swift */; };
+		F412A6361D1843E90062E4C1 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F412A6351D1843E90062E4C1 /* UserListViewController.swift */; };
 		FD580F224C2F3DCD67337258 /* Pods_Cheers_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7510949647789CE90E618EC /* Pods_Cheers_iosUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,8 @@
 		941E4269AF8AB2BB946C7B93 /* Pods-Cheers-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheers-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cheers-ios/Pods-Cheers-ios.release.xcconfig"; sourceTree = "<group>"; };
 		B7510949647789CE90E618EC /* Pods_Cheers_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cheers_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C901DB73E67EB64143A1E872 /* Pods-Cheers-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheers-iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cheers-iosUITests/Pods-Cheers-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F412A6331D1843D40062E4C1 /* ProfileRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileRegisterViewController.swift; sourceTree = "<group>"; };
+		F412A6351D1843E90062E4C1 /* UserListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
 		FD55AD5B28B0BE61BED9DE38 /* Pods-Cheers-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheers-iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cheers-iosUITests/Pods-Cheers-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +113,8 @@
 				4450D1FE1D16ECE50020BD2E /* ViewController.swift */,
 				4450D2031D16ECE50020BD2E /* Assets.xcassets */,
 				4450D2081D16ECE50020BD2E /* Info.plist */,
+				F412A6331D1843D40062E4C1 /* ProfileRegisterViewController.swift */,
+				F412A6351D1843E90062E4C1 /* UserListViewController.swift */,
 			);
 			path = "Cheers-ios";
 			sourceTree = "<group>";
@@ -307,7 +313,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4450D1FF1D16ECE50020BD2E /* ViewController.swift in Sources */,
+				F412A6361D1843E90062E4C1 /* UserListViewController.swift in Sources */,
 				4450D1FD1D16ECE50020BD2E /* AppDelegate.swift in Sources */,
+				F412A6341D1843D40062E4C1 /* ProfileRegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

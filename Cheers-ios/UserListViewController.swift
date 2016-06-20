@@ -1,18 +1,16 @@
 //
-//  ViewController.swift
+//  UserListViewController.swift
 //  Cheers-ios
 //
-//  Created by yuya on 2016/06/20.
+//  Created by masakikamachi on 2016/06/21.
 //  Copyright © 2016年 hy. All rights reserved.
 //
 
 import UIKit
 import FlatUIKit
-import FBSDKCoreKit
-import FBSDKLoginKit
 import LTMorphingLabel
 
-class ViewController: UIViewController, FBSDKLoginButtonDelegate, UIScrollViewDelegate, LTMorphingLabelDelegate {
+class UserListViewController: UIViewController, UIScrollViewDelegate, LTMorphingLabelDelegate {
     private var pageControl: UIPageControl!
     private var scrollView: UIScrollView!
     private var timer: NSTimer = NSTimer()
@@ -41,7 +39,6 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate, UIScrollViewDe
         self.timer = NSTimer.scheduledTimerWithTimeInterval(3.0, target: self, selector: #selector(self.changeSubTitleText), userInfo: nil, repeats: true)
         //Set UI parts to self.scrollView below this line.
         self.setTitle()
-        self.setFBLoginButton()
         self.setDescCheersButton()
     }
     
@@ -102,25 +99,15 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate, UIScrollViewDe
         self.view.addSubview(self.pageControl)
         self.view.addSubview(self.scrollView)
     }
-
-    func setFBLoginButton() {
-        for iPage in 0 ..< self.pageSize {
-            let FBLoginButton: FBSDKLoginButton = FBSDKLoginButton()
-            FBLoginButton.center = CGPointMake(visibleSize.width / 2 + visibleSize.width * CGFloat(iPage) , visibleSize.height - self.pageControlHeight - FBLoginButton.bounds.size.height / 2)
-            FBLoginButton.delegate = self
-            FBLoginButton.readPermissions = ["public_profile", "email", "user_friends"]
-            self.scrollView.addSubview(FBLoginButton)
-        }
-    }
     
     // Selector Method
     func changeSubTitleText() {
         self.subTitleLabel.text = self.subTitleText
     }
+    
     func showDescCheersLabel() {
         
     }
-    
     
     //Rarely Used Method
     override func didReceiveMemoryWarning() {
@@ -132,32 +119,5 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate, UIScrollViewDe
             self.pageControl.currentPage = Int(scrollView.contentOffset.x / scrollView.frame.maxX)
         }
     }
-    
-    func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError!) {
-        if error != nil {
-            
-        }
-        else if result.isCancelled {
-            
-        }
-        else if result.grantedPermissions.contains("email"){
-            // facebookIdを取得して/api/v1/authにget
-            let nextViewController: UIViewController
-            if true { // trueが返ってきたらユーザー一覧画面に遷移
-                nextViewController = UserListViewController()
-            } else { // falseが返ってきたらfacebookIdを/api/v1/authにpostしてプロフィール作成画面に遷移
-                // post処理
-                nextViewController = ProfileRegisterViewController()
-            }
-            nextViewController.modalTransitionStyle = UIModalTransitionStyle.PartialCurl
-            self.presentViewController(nextViewController, animated: true, completion: nil)
-        }
-        
-    }
-    
-    func loginButtonDidLogOut(loginButton: FBSDKLoginButton!) {
-    }
-
-
 }
 
